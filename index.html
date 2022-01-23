@@ -1,49 +1,55 @@
-﻿!DOCTYPE html>
-<html lang="pt-br">
+﻿<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Cryptography</title>
 </head>
-
-
 <body>
- 
-
-    <div class="banner">
-        <video autoplay muted loop>
-            <source src="video.mp4.mp4" type="video/mp4" />
-        </video>
-
-        <main class="main">
-            <section id="header">
-                <h1>CRIPTOGRAPHY</h1>
-            </section>
-            <section class="form box">
-                <form action="">
-                    <label for="input-texto">Apenas letras minúsculas, sem acento</label>
-                    <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
-                    <button class="btn third" type="submit" id="btn-cripto">Criptografar</button>
-                    <button class="btn third" type="submit" id="btn-descripto">Descriptografar</button>
-                </form>
-            </section>
-
-            <section class="msg box">
-                <h2 id="">Mensagem criptografada:</h2>
-                <input class="text-input" type="text" id="msg">
-                <button class="btn third" type="submit" id="btn-copy">Copiar</button>
-            </section>
-
-        </main>
-
-
-
+    <video id="videoBG" autoplay muted loop>
+        <source src="video.mp4.mp4" type="video/mp4" />
+    </video>
+    <div id="header">
+        <h1>ALURA: Oracle One - Challenge week 1 e 2</h1>
+    </div>
+    <div id="header">
+        <h2>CRIPTOGRAPHY</h2>
     </div>
 
+    <main class="main">
 
+        <section class="form box">
+            <form action="">
+                <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+                <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+                <button class="btn third" type="submit" id="btn-cripto">Criptografar</button>
+                <button class="btn third" type="submit" id="btn-descripto">Descriptografar</button>
+            </form>
+        </section>
 
+        <section class="msg box">
+            <h2 id="">Mensagem criptografada:</h2>
+            <input class="text-input" type="text" id="msg">
+            <button class="btn third" type="submit" id="btn-copy">Copiar</button>
+        </section>
+
+    </main>
+    <footer>
+        <div class="texto-rodape">
+            <p><strong>Vinicius Oruam</strong></p> 
+            <a href="https://github.com/vini1809"><<i class="fa fa-github" style="font-size: 64px; color: black"></i></a>
+
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+

@@ -1,75 +1,46 @@
 @import url('https://fonts.googleapis.com/css2? family= Syne+Mono & display=swap');
 
 body {
-
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
     margin: 0;
     padding: 0;
     font-family: 'Syne Mono', monospace;
 }
 
 
-.banner {
+#videoBG {
+    position: fixed;
+    z-index: -1;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
-
-    .banner video {
-        position: fixed;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        width: 100%;
-    }
-
-#header h1 {
-    color: #16FF63;
-    font-size: 80px;
+    
+#header h1{
+    color: white;
+    font-size: 36px;
     text-align: center;
-    padding: 0;
+    padding: initial;
     font-family: 'Syne Mono', monospace;
     text-shadow: 2px 2px 4px #4cff00;
 }
 
-
 #header h2 {
     color: #16FF63;
-    font-size:10px;
+    font-size: 80px;
     text-align: center;
-    padding: 0;
+    padding: initial;
     font-family: 'Syne Mono', monospace;
     text-shadow: 2px 2px 4px #4cff00;
 }
 
 .main {
     display: flex;
-    position: relative;
+    position: initial;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: radial-gradient(0.0.0.0.7);
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 .box {
     padding: 10px;
@@ -125,11 +96,18 @@ body {
     height: 50px;
 }
 
-.footer {
+footer {
+    border-top: solid 1px var(--cor-da-borda);
+    padding: 35px;
     text-align: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: Changa,sans-serif;
-    margin-top: 10rem
 }
+
+.texto-rodape {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: unset;
+    font-family: 'Syne Mono', monospace;
+    text-shadow: 2px 2px 4px #4cff00;
+}
+
