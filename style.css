@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: initial;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -23,14 +23,13 @@ body {
         height: 100%;
     }
 }
-@media (max-width: 767px){
+@media (max-width: 920px){
     #videoBG{
         display: flex;
     }
 
     body {
-        background: url('video.mp4');
-        background-size: cover;
+        background-size: auto;
     }
 }
     
@@ -45,89 +44,90 @@ body {
 
 #header h2 {
     color: #16FF63;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     padding: initial;
     font-family: 'Syne Mono', monospace;
     text-shadow: 2px 2px 4px #4cff00;
 }
 
-.main {
-    display: flex;
-    position: initial;
-    width: 100%;
-    height: auto;
-    background: radial-gradient(0.0.0.0.7);
-    justify-content: center;
-    align-items: center;
-}
+    .main {
+        display: flex;
+        position: initial;
+        width: 100%;
+        height: auto;
+        background: radial-gradient(0.0.0.0.7);
+        justify-content: center;
+        align-items: center;
+    }
 
-.box {
-    padding: 10px;
-    margin: 0 10px 0 10px;
-    box-shadow: 3px 3px 3px 1px #4cff00;
-    background-color: rgba(76,255,0,.450);
-    border-radius: 1em;
-    width: auto;
-    height: auto;
-}
-.btn {
-    box-sizing: border-box;
-    background-color: transparent;
-    border: 2px solid #e74c3c;
-    border-radius: 0.6em;
-    color: black;
-    cursor: pointer;
-    display: flex;
-    align-self: auto;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 10px;
-    padding: 0.5em 1.7em;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Syne Mono', monospace;
-}
+    .box {
+        padding: 5px;
+        margin: 0 10px 0 10px;
+        box-shadow: 3px 3px 3px 1px #4cff00;
+        background-color: rgba(76,255,0,.450);
+        border-radius: 1em;
+        width: auto;
+        height: auto;
+    }
 
-    .btn:hover, .btn:focus {
+    .btn {
+        box-sizing: border-box;
+        background-color: transparent;
+        border: 2px solid #e74c3c;
+        border-radius: 0.6em;
         color: black;
-        outline: 0;
+        cursor: pointer;
+        display: flex;
+        align-self: auto;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        margin: 10px;
+        padding: 0.5em 1.7em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Syne Mono', monospace;
     }
 
+        .btn:hover, .btn:focus {
+            color: black;
+            outline: 0;
+        }
 
-.third {
-    border-color: #16FF63;
-    color: darkgreen;
-    box-shadow: 0 0 40px 40px #16FF63 inset, 0 0 0 0 #16FF63;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-}
 
-    .third:hover {
-        box-shadow: 0 0 10px 0 #4cff00 inset, 0 0 10px 4px #4cff00;
+    .third {
+        border-color: #16FF63;
+        color: darkgreen;
+        box-shadow: 0 0 40px 40px #16FF63 inset, 0 0 0 0 #16FF63;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
     }
-.text-input {
-    border-radius: 0.5em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    display: block;
-    padding: 0.5em;
-    width: 96%;
-    height: 80px;
-}
 
-footer {
+        .third:hover {
+            box-shadow: 0 0 10px 0 #4cff00 inset, 0 0 10px 4px #4cff00;
+        }
 
-    padding: 5px;
-    text-align: center;
-}
+    .text-input {
+        border-radius: 0.5em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        display: block;
+        padding: 0.5em;
+        width: 96%;
+        height: 80px;
+    }
 
-.texto-rodape {
-    color: white;
-    font-size: 22px;
-    text-align: center;
-    padding: unset;
-    font-family: 'Syne Mono', monospace;
-    text-shadow: 2px 2px 4px #4cff00;
-}
+    footer {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .texto-rodape {
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: unset;
+        font-family: 'Syne Mono', monospace;
+        text-shadow: 2px 2px 4px #4cff00;
+    }
 
