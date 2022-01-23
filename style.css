@@ -24,8 +24,13 @@ body {
     }
 }
 @media (max-width: 767px){
+    #videoBG{
+        display: flex;
+    }
+
     body {
-        background-size:cover;
+        background: url('video.mp4');
+        background-size: cover;
     }
 }
     
