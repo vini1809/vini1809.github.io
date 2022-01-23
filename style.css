@@ -23,6 +23,11 @@ body {
         height: 100%;
     }
 }
+@media (max-width: 767px){
+    body {
+        background-size:cover;
+    }
+}
     
 #header h1{
     color: white;
