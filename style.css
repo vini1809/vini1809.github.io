@@ -35,13 +35,30 @@ body {
 
     #header h2 {
         color: #16FF63;
-        font-size: 60px;
+        font-size: 75px;
         text-align: center;
         padding: initial;
         font-family: 'Syne Mono', monospace;
-        text-shadow: 2px 2px 4px #4cff00;
+        text-shadow: 4px 4px 8px #4cff00;
     }
 
+#header h3 {
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    padding:0;
+    font-family: 'Syne Mono', monospace;
+    text-shadow: 2px 2px 4px #4cff00;
+}
+
+#header h4 {
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Syne Mono', monospace;
+    text-shadow: 2px 2px 4px #4cff00;
+}
     .main {
         display: flex;
         position: initial;
@@ -58,8 +75,8 @@ body {
         box-shadow: 3px 3px 3px 1px #4cff00;
         background-color: rgba(76,255,0,.450);
         border-radius: 1em;
-        width: auto;
-        height: auto;
+        width: 500px;
+        height: 300px;
     }
 
     .btn {
@@ -104,7 +121,7 @@ body {
         border: 1px solid rgba(0, 0, 0, 0.2);
         display: block;
         padding: 0.5em;
-        width: 96%;
+        width: 97%;
         height: 80px;
     }
 
