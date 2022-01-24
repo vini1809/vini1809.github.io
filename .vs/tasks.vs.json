@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-video.mp4",
+      "appliesTo": "video.mp4.mp4",
+      "type": "launch"
+    }
+  ]
+}

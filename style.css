@@ -17,39 +17,30 @@ body {
         height: auto;
     }
 }
+
 @media (max-aspect-ratio: 16/9) {
     #videoBG {
         width: auto;
         height: 100%;
     }
 }
-@media (max-width: 920px){
-    #videoBG{
-        display: flex;
+    #header h1 {
+        color: white;
+        font-size: 36px;
+        text-align: center;
+        padding: initial;
+        font-family: 'Syne Mono', monospace;
+        text-shadow: 2px 2px 4px #4cff00;
     }
 
-    body {
-        background-size: auto;
+    #header h2 {
+        color: #16FF63;
+        font-size: 60px;
+        text-align: center;
+        padding: initial;
+        font-family: 'Syne Mono', monospace;
+        text-shadow: 2px 2px 4px #4cff00;
     }
-}
-    
-#header h1{
-    color: white;
-    font-size: 36px;
-    text-align: center;
-    padding: initial;
-    font-family: 'Syne Mono', monospace;
-    text-shadow: 2px 2px 4px #4cff00;
-}
-
-#header h2 {
-    color: #16FF63;
-    font-size: 60px;
-    text-align: center;
-    padding: initial;
-    font-family: 'Syne Mono', monospace;
-    text-shadow: 2px 2px 4px #4cff00;
-}
 
     .main {
         display: flex;
