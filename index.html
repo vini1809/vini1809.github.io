@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stlesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Cryptography</title>
 </head>
+
 <body>
- "O universo acredita na criptografia.
-    É mais fácil criptografar informações do que descriptografá-las." -Julian Assange
-    <div>
-        <video id="videoBG" autoplay muted loop>
+
+    <div id="fundo">
+        <h1><video id="videoBG" autoplay muted loop>
             <source src="video.mp4_Trim.mp4" type="video/mp4" />
-        </video>
-    </div>
-    <div id="header">
+        </video></h1>
+    </div>    
+    
+    <div class="titulo">
         <h1>ALURA: Oracle One - Challenge week 1 e 2</h1>
     </div>
+
     <div id="header">
-        <h2>CRIPTOGRAPHY</h2>
+        <h3>CRIPTOGRAPHY</h3>
+        <p>"O universo acredita na criptografia.
+            É mais fácil criptografar informações do que descriptografá-las." -Julian Assange</p>
     </div>
 
     <main class="main">
@@ -29,7 +33,7 @@
         <section class="form box">
             <form action="">
                 <div id="header">
-                <h3>letras minusculas, sem acento</h3>
+                <h4>letras minusculas, sem acento</h4>
                     <br />
                 </div>
                 <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui"></textarea>
@@ -39,21 +43,25 @@
         </section>
         <section class="msg box">
             <div id="header">
-                <h4>Mensagem criptografada:</h4>
+                <h5>Mensagem criptografada:</h5>
             </div>
             <textarea class="text-input" type="text" id="msg" readonly></textarea>
             <button class="btn third" type="submit" id="btn-copy">Copiar</button>
         </section>
 
     </main>
+
     <footer>
+
         <div class="texto-rodape">
             <p><strong>Vinicius Oruam</strong></p>
-            <a href="https://github.com/vini1809"><i class="fa fa-github" style="font-size: 64px; color: black"></i></a>
-
+            <a href="https://github.com/vini1809"><i class="fa fa-github" style="font-size: 64px; color: white"></i></a>
         </div>
+       
     </footer>
+
     <script src="script.js"></script>
+    
 </body>
 </html>
 

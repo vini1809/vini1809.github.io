@@ -1,9 +1,28 @@
-@import url('https://fonts.googleapis.com/css2? family= Syne+Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
 
 body {
     margin: 0;
     padding: initial;
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Underdog', cursive;
+}
+
+#fundo h1 {
+    position: static;
+    width: 0;
+    height: 0;
+}
+
+.titulo h1 {
+
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Underdog', cursive;
+    text-shadow: 2px 2px 4px #4cff00;
+
 }
 
 
@@ -24,39 +43,37 @@ body {
         height: 100%;
     }
 }
-    #header h1 {
-        color: white;
-        font-size: 36px;
-        text-align: center;
-        padding: initial;
-        font-family: 'Syne Mono', monospace;
-        text-shadow: 2px 2px 4px #4cff00;
-    }
 
-    #header h2 {
+    #header h3 {
         color: #16FF63;
         font-size: 75px;
         text-align: center;
-        padding: initial;
-        font-family: 'Syne Mono', monospace;
+        padding: 15px;
+        font-family: 'Underdog', cursive;
         text-shadow: 4px 4px 8px #4cff00;
     }
 
-#header h3 {
-    color: black;
-    font-size: 23px;
-    text-align: center;
-    padding:0;
-    font-family: 'Syne Mono', monospace;
-    text-shadow: 2px 2px 4px #4cff00;
-}
+    #header p {
+        padding: 15px;
+        color: #ffffff;
+        text-align: center;
+    }
 
 #header h4 {
     color: black;
     font-size: 23px;
     text-align: center;
-    padding: 0;
-    font-family: 'Syne Mono', monospace;
+    padding:15px;
+    font-family: 'Underdog', cursive;
+    text-shadow: 2px 2px 4px #4cff00;
+}
+
+#header h5 {
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Underdog', cursive;
     text-shadow: 2px 2px 4px #4cff00;
 }
     .main {
@@ -130,12 +147,19 @@ body {
         text-align: center;
     }
 
-    .texto-rodape {
+    .texto-rodape p {
         color: white;
         font-size: 22px;
         text-align: center;
-        padding: unset;
-        font-family: 'Syne Mono', monospace;
+        padding: 20px;
+        font-family: 'Underdog', cursive;
         text-shadow: 2px 2px 4px #4cff00;
     }
-
+    .texto-rodape a {
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Underdog', cursive;
+        text-shadow: 2px 2px 4px #4cff00;
+    }
