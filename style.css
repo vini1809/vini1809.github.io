@@ -30,6 +30,7 @@ body {
     position: fixed;
     z-index: -1;
 }
+
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width: 100%;
@@ -162,4 +163,72 @@ body {
         padding: 20px;
         font-family: 'Underdog', cursive;
         text-shadow: 2px 2px 4px #4cff00;
+    }
+    @media screen and (max-width: 520px){
+
+
+        .titulo h1 {
+    
+            text-align: center;
+        }
+        #header h3 {
+    
+            font-size: 30px;
+        }
+        .main {
+            display: relative;
+            position: initial;
+            width: 100%;
+            height: auto;
+            background: radial-gradient(0.0.0.0.7);
+            justify-content: center;
+            align-items: center; 
+        }
+        .box {
+            padding: 4px;
+            margin: auto 5px auto 5px;
+            box-shadow: 3px 3px 3px 1px #4cff00;
+            background-color: rgba(76,255,0,.450);
+            border-radius: 1em;
+            width: 400px;
+            height: 300px;
+        }
+    
+        .btn {
+            box-sizing: border-box;
+            background-color: transparent;
+            border: 2px solid #e74c3c;
+            border-radius: 0.6em;
+            color: black;
+            cursor: pointer;
+            display: flex;
+            align-self: auto;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1;
+            margin: 10px;
+            padding: 0.5em 1.7em;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Syne Mono', monospace;
+        }
+    
+            .btn:hover, .btn:focus {
+                color: black;
+                outline: 0;
+            }
+    
+    
+        .third {
+            border-color: #16FF63;
+            color: darkgreen;
+            box-shadow: 0 0 40px 40px #16FF63 inset, 0 0 0 0 #16FF63;
+            -webkit-transition: all 150ms ease-in-out;
+            transition: all 150ms ease-in-out;
+        }
+    
+            .third:hover {
+                box-shadow: 0 0 10px 0 #4cff00 inset, 0 0 10px 4px #4cff00;
+            }
+    
     }
