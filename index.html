@@ -12,17 +12,17 @@
 
 <body>
 
-    <div id="fundo">
-        <h1><video id="videoBG" autoplay muted loop>
+    <div class="fundo">
+        <video id="videoBG" autoplay muted loop>
             <source src="video.mp4_Trim.mp4" type="video/mp4" />
-        </video></h1>
+        </video>
     </div>    
     
-    <div class="titulo">
+    <div class="titulo titulo-style">
         <h1>ALURA: Oracle One - Challenge week 1 e 2</h1>
     </div>
 
-    <div id="header">
+    <div class="titulo titulo-style">
         <h3>CRIPTOGRAPHY</h3>
         <p>"O universo acredita na criptografia.
             É mais fácil criptografar informações do que descriptografá-las." -Julian Assange</p>
@@ -32,9 +32,8 @@
 
         <section class="form box">
             <form action="">
-                <div id="header">
+                <div class="titulo titulo-style">
                 <h4>letras minusculas, sem acento</h4>
-                    <br />
                 </div>
                 <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui"></textarea>
                 <input class="btn third" type="button" value="criptografar" id="btn-cripto">
@@ -42,7 +41,7 @@
             </form>
         </section>
         <section class="msg box">
-            <div id="header">
+            <div class="titulo titulo-style">
                 <h5>Mensagem criptografada:</h5>
             </div>
             <textarea class="text-input" type="text" id="msg" readonly></textarea>
